@@ -1,0 +1,5 @@
+{
+  "name": "Rucking Calorie Calculator",
+  "description": "A beautiful and user-friendly rucking calorie calculator for the US and worldwide audience. It provides accurate calorie burn estimates based on body weight, ruck weight, distance, time, and terrain. Includes a visual comparison chart and automatic results.",
+  "requestFramePermissions": []
+}

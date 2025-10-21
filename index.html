@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rucking Calorie Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Accurately estimate the calories burned while rucking with our detailed calculator. Input your body weight, ruck weight, distance, time, and terrain to get precise results, track your workout history, and compare your effort to other activities. Perfect for hikers, military, and fitness enthusiasts." />
+    <meta name="theme-color" content="#1E3A8A">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'brand-primary': '#1E3A8A', // A deep blue
+              'brand-secondary': '#10B981', // A vibrant green
+              'brand-light': '#F0F9FF', // A very light blue
+              'brand-dark': '#111827', // A dark gray
+            },
+          },
+        },
+      }
+    </script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "recharts": "https://esm.sh/recharts@^3.1.2",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.25.1",
+    "react-router-dom/": "https://esm.sh/react-router-dom@6.25.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
